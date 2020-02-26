@@ -33,6 +33,21 @@ class HomeController extends Controller
         $r['userId'] = Auth::user()->id;
         $r['type'] = 'default';
         Summary::create($r->all());
-        return redirect()->back();
+        $objs = Summary::orderBy('id', 'DESC')->paginate();
+        return view('summaries', compact('objs'));
     }
+
+     public function postEdit(SummaryRequest $r, $id=null) {
+          $obj=Summary::find($id);
+          $obj->update($r->all());
+          $objs = Summary::orderBy('id', 'DESC')->paginate();
+          return view('summaries', compact('objs'));
+     }
+
+     public function postDelete($id=null) {
+          $obj=Summary::find($id);
+          $obj->delete();
+          $objs = Summary::orderBy('id', 'DESC')->paginate();
+          return view('summaries', compact('objs'));
+     }
 }

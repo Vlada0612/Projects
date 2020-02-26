@@ -21,4 +21,12 @@ Route::post('home', 'HomeController@postIndex');
 
 Route::get('/summaries', 'SummaryController@getIndex');
 
+Route::get('/summary/{id}', 'SummaryController@getOne');
+
+Route::get('/summary/edit/{id}', 'SummaryController@getEdit');
+
+Route::post('/home/{id}', 'HomeController@postEdit');
+
+Route::get('summary/delete/{id}', 'HomeController@postDelete');
+
 Route::get('{url}', 'PageController@getIndex');
