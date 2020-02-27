@@ -29,4 +29,8 @@ Route::post('/home/{id}', 'HomeController@postEdit');
 
 Route::get('summary/delete/{id}', 'HomeController@postDelete');
 
+Route::post('ajax/datalist', 'Ajax\DatalistController@postIndex');
+
+Route::get('search', 'SearchController@getIndex');
+
 Route::get('{url}', 'PageController@getIndex');
