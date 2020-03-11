@@ -33,4 +33,6 @@ Route::post('ajax/datalist', 'Ajax\DatalistController@postIndex');
 
 Route::get('search', 'SearchController@getIndex');
 
+Route::post('comments/{id}', 'CommentsController@postIndex');
+
 Route::get('{url}', 'PageController@getIndex');

@@ -14,7 +14,7 @@
         @csrf
         <div class="row">
         <div class="col-md-7">
-        <input id="searchId" class="form-control" type="search" placeholder="Search" list="mydata"/>
+        <input id="searchId" name="list" class="form-control" type="search" placeholder="Search" list="mydata"/>
         </div>
         <div class="col-md-5">
         <button class="btn btn-primary">

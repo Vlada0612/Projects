@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d21f5432-807d-4c11-bb62-f43340a69bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Ajax/DatalistController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/datalist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/summaries.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_04_090937_create_comments_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Summary.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/summaries.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/summaries.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/summary.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/summary.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,9 @@
       <workItem from="1580893118554" duration="6528000" />
       <workItem from="1581513103091" duration="2223000" />
       <workItem from="1582713783558" duration="10122000" />
-      <workItem from="1582800686779" duration="3573000" />
+      <workItem from="1582800686779" duration="3892000" />
+      <workItem from="1583311449053" duration="7183000" />
+      <workItem from="1583916023422" duration="490000" />
     </task>
     <servers />
   </component>
@@ -84,17 +85,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580383138381" />
-    <state x="380" y="101" width="606" height="526" key="find.popup" timestamp="1582715193986">
+    <state x="380" y="101" width="606" height="526" key="find.popup" timestamp="1583318988323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="380" y="101" width="606" height="526" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582715193986" />
+    <state x="380" y="101" width="606" height="526" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583318988323" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1580894972361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580894972361" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582803703623">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583916658270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582803703623" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583916658270" />
   </component>
 </project>
